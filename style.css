@@ -384,6 +384,8 @@ form {
 .input-group {
   height: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 form input,
@@ -584,9 +586,13 @@ button i {
   }
   select {
     padding: 3px 5px;
+    font-size: 10px;
   }
   .todos-container {
     padding: 0 20px;
+  }
+  .instructions {
+    padding: 2rem 1.5rem;
   }
 }
 
