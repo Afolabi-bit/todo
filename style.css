@@ -23,7 +23,7 @@ body {
   z-index: -1;
 }
 
-.bg:after {
+/*.bg:after {
   content: '';
   position: absolute;
   top: 0;
@@ -36,7 +36,7 @@ body {
     rgba(253, 159, 133, 0.3)
   );
   z-index: 0;
-}
+}*/
 
 .bg video {
   width: 100%;
@@ -522,6 +522,9 @@ select {
   cursor: pointer;
   background-color: #ff6f47;
   padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   height: 100%;
   width: 50px;
